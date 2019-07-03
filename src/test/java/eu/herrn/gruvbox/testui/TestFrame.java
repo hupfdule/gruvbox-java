@@ -5,7 +5,7 @@
  */
 package eu.herrn.gruvbox.testui;
 
-import eu.herrn.gruvbox.GruvboxLookAndFeel;
+import eu.herrn.gruvbox.laf.GruvboxLookAndFeel;
 
 
 /**

@@ -1,4 +1,4 @@
-package eu.herrn.gruvbox;
+package eu.herrn.gruvbox.laf;
 
 
 /**

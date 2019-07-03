@@ -1,4 +1,4 @@
-package eu.herrn.gruvbox;
+package eu.herrn.gruvbox.laf;
 
 import java.util.logging.*;
 import javax.swing.plaf.metal.MetalLookAndFeel;

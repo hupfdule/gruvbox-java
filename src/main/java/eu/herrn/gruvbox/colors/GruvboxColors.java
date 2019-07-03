@@ -1,8 +1,8 @@
-package eu.herrn.gruvbox;
+package eu.herrn.gruvbox.colors;
 
 import java.awt.Color;
 
-public class Gruvbox {
+public class GruvboxColors {
   //                        GRUVCOLR                    HEX                    RELATV ALIAS   TERMCOLOR      RGB           ITERM RGB     OSX HEX
   public static final Color DARK0_HARD     =  new Color(0x1d, 0x20, 0x21); //  [   ]  [   ]   234 [h0][  ]    29- 32- 33    22- 24- 25   #161819
   public static final Color DARK0          =  new Color(0x28, 0x28, 0x28); //  [bg0]  [fg0]   235 [ 0][  ]    40- 40- 40    30- 30- 30   #1e1e1e
@@ -34,7 +34,7 @@ public class Gruvbox {
   public static final Color NEUTRAL_RED    =  new Color(0xcc, 0x24, 0x1d); //  [   ]  [   ]   124 [ 1][ 1]   204- 36- 29   190- 15- 23   #be0f17
   public static final Color NEUTRAL_GREEN  =  new Color(0x98, 0x97, 0x1a); //  [   ]  [   ]   106 [ 2][ 2]   152-151- 26   134-135- 21   #868715
   public static final Color NEUTRAL_YELLOW =  new Color(0xd7, 0x99, 0x21); //  [   ]  [   ]   172 [ 3][ 3]   215-153- 33   204-136- 26   #cc881a
-  public static final Color NEUTRAL_BLUE   =  new Color(0x45, 0x85, 0x88); //  [   ]  [   ]    30 [ 4][ 4]    69-133-136    55-115-117   #377375
+  public static final Color NEUTRAL_BLUE   =  new Color(0x45, 0x85, 0x88); //  [   ]  [   ]    66 [ 4][ 4]    69-133-136    55-115-117   #377375
   public static final Color NEUTRAL_PURPLE =  new Color(0xb1, 0x62, 0x86); //  [   ]  [   ]   132 [ 5][ 5]   177- 98-134   160- 75-115   #a04b73
   public static final Color NEUTRAL_AQUA   =  new Color(0x68, 0x9d, 0x6a); //  [   ]  [   ]    72 [ 6][ 6]   104-157-106    87-142- 87   #578e57
   public static final Color NEUTRAL_ORANGE =  new Color(0xd6, 0x5d, 0x0e); //  [   ]  [   ]   166 [  ][  ]   214- 93- 14   202- 72- 14   #ca480e
@@ -44,6 +44,6 @@ public class Gruvbox {
   public static final Color FADED_YELLOW   =  new Color(0xb5, 0x76, 0x14); //  [   ][yellow]  136 [  ][11]   181-118- 20   165- 99- 17   #a56311
   public static final Color FADED_BLUE     =  new Color(0x07, 0x66, 0x78); //  [   ]  [blue]   24 [  ][12]     7-102-120    14- 83-101   #0e5365
   public static final Color FADED_PURPLE   =  new Color(0x8f, 0x3f, 0x71); //  [   ][purple]   96 [  ][13]   143- 63-113   123- 43- 94   #7b2b5e
-  public static final Color FADED_AQUA     =  new Color(0x42, 0x7b, 0x58); //  [   ]  [aqua]   66 [  ][14]    66-123- 88    53-106- 70   #356a46
+  public static final Color FADED_AQUA     =  new Color(0x42, 0x7b, 0x58); //  [   ]  [aqua]   65 [  ][14]    66-123- 88    53-106- 70   #356a46
   public static final Color FADED_ORANGE   =  new Color(0xaf, 0x3a, 0x03); //  [   ][orange]  130 [  ][  ]   175- 58-  3   157- 40-  7   #9d2807
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package eu.herrn.gruvbox;
+package eu.herrn.gruvbox.laf;
 
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.FontUIResource;
