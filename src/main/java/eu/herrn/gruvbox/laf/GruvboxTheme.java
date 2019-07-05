@@ -70,7 +70,7 @@ public class GruvboxTheme extends MetalTheme {
     //  - border of internal frame
     //  - some knobs contrast
     //  - border around expanded menu
-    return new ColorUIResource(Color.BLUE);
+    return this.gruvbox.getFg4();
   }
 
 
@@ -81,7 +81,7 @@ public class GruvboxTheme extends MetalTheme {
     //  - selected entry in combo box
     //  - active slider
     //  - border around caption on focused component
-    return new ColorUIResource(Color.MAGENTA);
+    return this.gruvbox.getBg2();
   }
 
 
@@ -93,7 +93,7 @@ public class GruvboxTheme extends MetalTheme {
     //  - tooltip background
     //  - selection background in tables and lists
     //  - activated JInternalFrame
-    return this.gruvbox.getAqua();
+    return this.gruvbox.getBg3();
   }
 
 
@@ -102,7 +102,7 @@ public class GruvboxTheme extends MetalTheme {
     // used for:
     //  - borders (or border shadows)
     //  - ripple effect in tab bars and internal frames
-    return this.gruvbox.getAqua();
+    return this.gruvbox.getGray();
   }
 
 
@@ -161,22 +161,6 @@ public class GruvboxTheme extends MetalTheme {
 
 
   @Override
-  public ColorUIResource getPrimaryControlHighlight() {
-    return new ColorUIResource(Color.WHITE);
-  }
-
-
-
-  @Override
-  public ColorUIResource getControlDisabled() {
-    // used for:
-    //  - caption of disabled elements
-//    return super.getControlDisabled();
-    return new ColorUIResource(Color.BLACK);
-  }
-
-
-  @Override
   public ColorUIResource getControlTextColor() {
     // used for:
     //  - text on controls (but not in trees, lists, but also in tables)
@@ -223,11 +207,12 @@ public class GruvboxTheme extends MetalTheme {
   }
 
 
+
   @Override
   public ColorUIResource getFocusColor() {
     // used for:
     //  - border around text on focused element
-    return new ColorUIResource(Color.CYAN);
+    return this.gruvbox.getBg4();
   }
 
 
