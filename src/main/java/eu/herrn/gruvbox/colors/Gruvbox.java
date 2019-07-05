@@ -5,7 +5,7 @@
  */
 package eu.herrn.gruvbox.colors;
 
-import java.awt.Color;
+import javax.swing.plaf.ColorUIResource;
 
 
 /**
@@ -13,37 +13,37 @@ import java.awt.Color;
  * @author mherrn
  */
 public interface Gruvbox {
-  public Color getRed();
-  public Color getGreen();
-  public Color getYellow();
-  public Color getBlue();
-  public Color getPurple();
-  public Color getAqua();
-  public Color getGray();
-  public Color getOrange();
+  public ColorUIResource getRed();
+  public ColorUIResource getGreen();
+  public ColorUIResource getYellow();
+  public ColorUIResource getBlue();
+  public ColorUIResource getPurple();
+  public ColorUIResource getAqua();
+  public ColorUIResource getGray();
+  public ColorUIResource getOrange();
 
-  public Color getBrightRed();
-  public Color getBrightGreen();
-  public Color getBrightYellow();
-  public Color getBrightBlue();
-  public Color getBrightPurple();
-  public Color getBrightAqua();
-  public Color getBrightGray();
-  public Color getBrightOrange();
+  public ColorUIResource getBrightRed();
+  public ColorUIResource getBrightGreen();
+  public ColorUIResource getBrightYellow();
+  public ColorUIResource getBrightBlue();
+  public ColorUIResource getBrightPurple();
+  public ColorUIResource getBrightAqua();
+  public ColorUIResource getBrightGray();
+  public ColorUIResource getBrightOrange();
 
-  public Color getFg();
-  public Color getFg0();
-  public Color getFg1();
-  public Color getFg2();
-  public Color getFg3();
-  public Color getFg4();
+  public ColorUIResource getFg();
+  public ColorUIResource getFg0();
+  public ColorUIResource getFg1();
+  public ColorUIResource getFg2();
+  public ColorUIResource getFg3();
+  public ColorUIResource getFg4();
 
-  public Color getBg();
-  public Color getBgHard();
-  public Color getBgSoft();
-  public Color getBg0();
-  public Color getBg1();
-  public Color getBg2();
-  public Color getBg3();
-  public Color getBg4();
+  public ColorUIResource getBg();
+  public ColorUIResource getBgHard();
+  public ColorUIResource getBgSoft();
+  public ColorUIResource getBg0();
+  public ColorUIResource getBg1();
+  public ColorUIResource getBg2();
+  public ColorUIResource getBg3();
+  public ColorUIResource getBg4();
 }

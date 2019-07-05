@@ -6,6 +6,8 @@
 package eu.herrn.gruvbox.testui;
 
 import eu.herrn.gruvbox.laf.GruvboxLookAndFeel;
+import eu.herrn.gruvbox.laf.GruvboxThemeVariant;
+import eu.herrn.gruvbox.laf.SystemProperties;
 
 
 /**
@@ -383,6 +385,7 @@ public class TestFrame extends javax.swing.JFrame {
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
      */
     try {
+      System.setProperty(SystemProperties.THEME, GruvboxThemeVariant.LIGHT.name());
       javax.swing.UIManager.setLookAndFeel(new GruvboxLookAndFeel());
     } catch (javax.swing.UnsupportedLookAndFeelException ex) {
       java.util.logging.Logger.getLogger(TestFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);

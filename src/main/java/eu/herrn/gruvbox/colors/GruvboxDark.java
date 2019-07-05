@@ -1,190 +1,190 @@
 package eu.herrn.gruvbox.colors;
 
-import java.awt.Color;
+import javax.swing.plaf.ColorUIResource;
 
 public class GruvboxDark implements Gruvbox {
-  public static final Color fg0          = GruvboxColors.LIGHT0;
-  public static final Color fg1          = GruvboxColors.LIGHT1;
-  public static final Color fg2          = GruvboxColors.LIGHT2;
-  public static final Color fg3          = GruvboxColors.LIGHT3;
-  public static final Color fg4          = GruvboxColors.LIGHT4;
+  public static final ColorUIResource fg0          = new ColorUIResource(GruvboxColors.LIGHT0);
+  public static final ColorUIResource fg1          = new ColorUIResource(GruvboxColors.LIGHT1);
+  public static final ColorUIResource fg2          = new ColorUIResource(GruvboxColors.LIGHT2);
+  public static final ColorUIResource fg3          = new ColorUIResource(GruvboxColors.LIGHT3);
+  public static final ColorUIResource fg4          = new ColorUIResource(GruvboxColors.LIGHT4);
 
-  public static final Color bg0          = GruvboxColors.DARK0;
-  public static final Color bg1          = GruvboxColors.DARK1;
-  public static final Color bg2          = GruvboxColors.DARK2;
-  public static final Color bg3          = GruvboxColors.DARK3;
-  public static final Color bg4          = GruvboxColors.DARK4;
+  public static final ColorUIResource bg0          = new ColorUIResource(GruvboxColors.DARK0);
+  public static final ColorUIResource bg1          = new ColorUIResource(GruvboxColors.DARK1);
+  public static final ColorUIResource bg2          = new ColorUIResource(GruvboxColors.DARK2);
+  public static final ColorUIResource bg3          = new ColorUIResource(GruvboxColors.DARK3);
+  public static final ColorUIResource bg4          = new ColorUIResource(GruvboxColors.DARK4);
 
-  public static final Color red          = GruvboxColors.NEUTRAL_RED;
-  public static final Color green        = GruvboxColors.NEUTRAL_GREEN;
-  public static final Color yellow       = GruvboxColors.NEUTRAL_YELLOW;
-  public static final Color blue         = GruvboxColors.NEUTRAL_BLUE;
-  public static final Color purple       = GruvboxColors.NEUTRAL_PURPLE;
-  public static final Color aqua         = GruvboxColors.NEUTRAL_AQUA;
-  public static final Color orange       = GruvboxColors.NEUTRAL_ORANGE;
-  public static final Color gray         = GruvboxColors.LIGHT4;
+  public static final ColorUIResource red          = new ColorUIResource(GruvboxColors.NEUTRAL_RED);
+  public static final ColorUIResource green        = new ColorUIResource(GruvboxColors.NEUTRAL_GREEN);
+  public static final ColorUIResource yellow       = new ColorUIResource(GruvboxColors.NEUTRAL_YELLOW);
+  public static final ColorUIResource blue         = new ColorUIResource(GruvboxColors.NEUTRAL_BLUE);
+  public static final ColorUIResource purple       = new ColorUIResource(GruvboxColors.NEUTRAL_PURPLE);
+  public static final ColorUIResource aqua         = new ColorUIResource(GruvboxColors.NEUTRAL_AQUA);
+  public static final ColorUIResource orange       = new ColorUIResource(GruvboxColors.NEUTRAL_ORANGE);
+  public static final ColorUIResource gray         = new ColorUIResource(GruvboxColors.LIGHT4);
 
-  public static final Color brightRed    = GruvboxColors.BRIGHT_RED;
-  public static final Color brightGreen  = GruvboxColors.BRIGHT_GREEN;
-  public static final Color brightYellow = GruvboxColors.BRIGHT_YELLOW;
-  public static final Color brightBlue   = GruvboxColors.BRIGHT_BLUE;
-  public static final Color brightPurple = GruvboxColors.BRIGHT_PURPLE;
-  public static final Color brightAqua   = GruvboxColors.BRIGHT_AQUA;
-  public static final Color brightOrange = GruvboxColors.BRIGHT_ORANGE;
-  public static final Color brightGray   = GruvboxColors.GRAY_245;
+  public static final ColorUIResource brightRed    = new ColorUIResource(GruvboxColors.BRIGHT_RED);
+  public static final ColorUIResource brightGreen  = new ColorUIResource(GruvboxColors.BRIGHT_GREEN);
+  public static final ColorUIResource brightYellow = new ColorUIResource(GruvboxColors.BRIGHT_YELLOW);
+  public static final ColorUIResource brightBlue   = new ColorUIResource(GruvboxColors.BRIGHT_BLUE);
+  public static final ColorUIResource brightPurple = new ColorUIResource(GruvboxColors.BRIGHT_PURPLE);
+  public static final ColorUIResource brightAqua   = new ColorUIResource(GruvboxColors.BRIGHT_AQUA);
+  public static final ColorUIResource brightOrange = new ColorUIResource(GruvboxColors.BRIGHT_ORANGE);
+  public static final ColorUIResource brightGray   = new ColorUIResource(GruvboxColors.GRAY_245);
 
-  public static final Color fg           = fg1;
-  public static final Color bg           = bg0;
-  public static final Color bgHard       = GruvboxColors.DARK0_HARD;
-  public static final Color bgSoft       = GruvboxColors.DARK0_SOFT;
+  public static final ColorUIResource fg           = new ColorUIResource(fg1);
+  public static final ColorUIResource bg           = new ColorUIResource(bg0);
+  public static final ColorUIResource bgHard       = new ColorUIResource(GruvboxColors.DARK0_HARD);
+  public static final ColorUIResource bgSoft       = new ColorUIResource(GruvboxColors.DARK0_SOFT);
 
 
-  public Color getFg0() {
+  public ColorUIResource getFg0() {
     return fg0;
   }
 
 
-  public Color getFg1() {
+  public ColorUIResource getFg1() {
     return fg1;
   }
 
 
-  public Color getFg2() {
+  public ColorUIResource getFg2() {
     return fg2;
   }
 
 
-  public Color getFg3() {
+  public ColorUIResource getFg3() {
     return fg3;
   }
 
 
-  public Color getFg4() {
+  public ColorUIResource getFg4() {
     return fg4;
   }
 
 
-  public Color getBg0() {
+  public ColorUIResource getBg0() {
     return bg0;
   }
 
 
-  public Color getBg1() {
+  public ColorUIResource getBg1() {
     return bg1;
   }
 
 
-  public Color getBg2() {
+  public ColorUIResource getBg2() {
     return bg2;
   }
 
 
-  public Color getBg3() {
+  public ColorUIResource getBg3() {
     return bg3;
   }
 
 
-  public Color getBg4() {
+  public ColorUIResource getBg4() {
     return bg4;
   }
 
 
-  public Color getRed() {
+  public ColorUIResource getRed() {
     return red;
   }
 
 
-  public Color getGreen() {
+  public ColorUIResource getGreen() {
     return green;
   }
 
 
-  public Color getYellow() {
+  public ColorUIResource getYellow() {
     return yellow;
   }
 
 
-  public Color getBlue() {
+  public ColorUIResource getBlue() {
     return blue;
   }
 
 
-  public Color getPurple() {
+  public ColorUIResource getPurple() {
     return purple;
   }
 
 
-  public Color getAqua() {
+  public ColorUIResource getAqua() {
     return aqua;
   }
 
 
-  public Color getOrange() {
+  public ColorUIResource getOrange() {
     return orange;
   }
 
 
-  public Color getGray() {
+  public ColorUIResource getGray() {
     return gray;
   }
 
 
-  public Color getBrightRed() {
+  public ColorUIResource getBrightRed() {
     return brightRed;
   }
 
 
-  public Color getBrightGreen() {
+  public ColorUIResource getBrightGreen() {
     return brightGreen;
   }
 
 
-  public Color getBrightYellow() {
+  public ColorUIResource getBrightYellow() {
     return brightYellow;
   }
 
 
-  public Color getBrightBlue() {
+  public ColorUIResource getBrightBlue() {
     return brightBlue;
   }
 
 
-  public Color getBrightPurple() {
+  public ColorUIResource getBrightPurple() {
     return brightPurple;
   }
 
 
-  public Color getBrightAqua() {
+  public ColorUIResource getBrightAqua() {
     return brightAqua;
   }
 
 
-  public Color getBrightOrange() {
+  public ColorUIResource getBrightOrange() {
     return brightOrange;
   }
 
 
-  public Color getBrightGray() {
+  public ColorUIResource getBrightGray() {
     return brightGray;
   }
 
 
-  public Color getFg() {
+  public ColorUIResource getFg() {
     return fg;
   }
 
 
-  public Color getBg() {
+  public ColorUIResource getBg() {
     return bg;
   }
 
 
-  public Color getBgHard() {
+  public ColorUIResource getBgHard() {
     return bgHard;
   }
 
 
-  public Color getBgSoft() {
+  public ColorUIResource getBgSoft() {
     return bgSoft;
   }
 
