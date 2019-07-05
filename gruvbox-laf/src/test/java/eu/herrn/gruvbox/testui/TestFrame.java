@@ -8,6 +8,8 @@ package eu.herrn.gruvbox.testui;
 import eu.herrn.gruvbox.laf.GruvboxLookAndFeel;
 import eu.herrn.gruvbox.laf.GruvboxThemeVariant;
 import eu.herrn.gruvbox.laf.SystemProperties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**
@@ -384,7 +386,7 @@ public class TestFrame extends javax.swing.JFrame {
     /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
      */
-    for (final GruvboxThemeVariant v : new GruvboxThemeVariant[]{GruvboxThemeVariant.LIGHT, GruvboxThemeVariant.DARK}) {
+    for (final GruvboxThemeVariant v : GruvboxThemeVariant.values()) {
 
       //</editor-fold>
 

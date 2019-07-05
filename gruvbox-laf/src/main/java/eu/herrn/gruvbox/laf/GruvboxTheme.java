@@ -39,18 +39,7 @@ public class GruvboxTheme extends MetalTheme {
     Objects.requireNonNull(contrast);
     this.variant= variant;
     this.contrast= contrast;
-    switch (variant) {
-      case DARK:
-        this.gruvbox= new GruvboxDark();
-        break;
-      case LIGHT:
-        this.gruvbox= new GruvboxLight();
-        break;
-      default:
-        LOGGER.log(Level.WARNING, "Invalid variant {0}. Using {1} instead.", new Object[]{variant, GruvboxThemeVariant.DARK});
-        this.gruvbox= new GruvboxDark();
-        break;
-    }
+    this.gruvbox= this.variant.create();
   }
 
 
@@ -203,6 +192,8 @@ public class GruvboxTheme extends MetalTheme {
     //  - table grid lines
     //  - separator between menu and main panel
     //  - border of disabled elements
+    // FIXME: Wieso werden beim Setzen von z.B. "grün" gedrückte Buttons und gedrückte Toggle-Buttons gleich grün gezeichnet,
+    //        beim Setzen von Bg2 aber unterschiedlich (nämlich Togglebutton immer heller)?
     return this.gruvbox.getBg2();
   }
 
@@ -315,18 +306,6 @@ public class GruvboxTheme extends MetalTheme {
   }
 
 
-//  @Override
-//  public ColorUIResource getMenuDisabledForeground() {
-//    return new ColorUIResource(Color.CYAN);
-//  }
-//
-//
-//  @Override
-//  public ColorUIResource getMenuSelectedForeground() {
-//    return new ColorUIResource(Color.magenta);
-//  }
-
-
   @Override
   public ColorUIResource getMenuForeground() {
     return this.gruvbox.getFg1();
@@ -343,6 +322,7 @@ public class GruvboxTheme extends MetalTheme {
   protected ColorUIResource getWhite() {
     return this.gruvbox.getBg();
   }
+
 
 
 

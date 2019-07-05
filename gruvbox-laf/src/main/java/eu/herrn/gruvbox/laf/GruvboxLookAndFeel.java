@@ -43,7 +43,7 @@ public class GruvboxLookAndFeel extends MetalLookAndFeel {
     final String defaultThemeName= System.getProperty(SystemProperties.THEME);
     GruvboxThemeVariant variant = GruvboxThemeVariant.get(defaultThemeName);
     if (variant == null) {
-      variant= GruvboxThemeVariant.DARK;
+      variant= GruvboxThemeVariant.LIGHT;
     }
 
     return new GruvboxTheme(variant, contrast);

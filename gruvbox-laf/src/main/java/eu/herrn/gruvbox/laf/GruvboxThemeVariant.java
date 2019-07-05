@@ -5,14 +5,35 @@
  */
 package eu.herrn.gruvbox.laf;
 
+import eu.herrn.gruvbox.colors.Gruvbox;
+import eu.herrn.gruvbox.colors.GruvboxDark;
+import eu.herrn.gruvbox.colors.GruvboxLight;
+import eu.herrn.gruvbox.colors.GruvboxSolarizedLight;
+
 
 /**
  *
  * @author mherrn
  */
 public enum GruvboxThemeVariant {
-  DARK,
-  LIGHT,
+  DARK {
+    @Override
+    public Gruvbox create() {
+      return new GruvboxDark();
+    }
+  },
+  LIGHT {
+    @Override
+    public Gruvbox create() {
+      return new GruvboxLight();
+    }
+  },
+  SOLARIZED {
+    @Override
+    public Gruvbox create() {
+      return new GruvboxSolarizedLight();
+    }
+  },
   ;
 
   // FIXME: compare case insensitive?
@@ -29,4 +50,6 @@ public enum GruvboxThemeVariant {
 
     return null;
   }
+
+  public abstract Gruvbox create();
 }
