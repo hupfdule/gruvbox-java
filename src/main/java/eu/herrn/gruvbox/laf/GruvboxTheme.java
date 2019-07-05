@@ -207,6 +207,41 @@ public class GruvboxTheme extends MetalTheme {
   }
 
 
+  @Override
+  public ColorUIResource getHighlightedTextColor() {
+    // used for:
+    //  - hightlighted text in tables, tree, lists, textfields, textareads, but NOT in combo box list or menus!
+    return this.gruvbox.getBg0();
+  }
+
+
+  @Override
+  public ColorUIResource getTextHighlightColor() {
+    // used for:
+    //  - Background of hightlighted text in tables, tree, lists, textfields, textareads, but NOT in combo box list!
+    return this.gruvbox.getAqua();
+  }
+
+
+  @Override
+  public ColorUIResource getPrimaryControlInfo() {
+    // used for:
+    //  - tooltip text
+    //return this.gruvbox.getBg0();
+    //return this.gruvbox.getBrightAqua();
+    return this.gruvbox.getFg1();
+  }
+
+
+  @Override
+  public ColorUIResource getPrimaryControl() {
+    // used for:
+    //  - tooltip text
+    //return this.gruvbox.getBg0();
+    //return this.gruvbox.getBrightAqua();
+    return this.gruvbox.getBg2();
+  }
+
 
   @Override
   public ColorUIResource getFocusColor() {
@@ -250,6 +285,65 @@ public class GruvboxTheme extends MetalTheme {
   public FontUIResource getSubTextFont() {
     return DEFAULT_FONT;
   }
+
+
+  @Override
+  public ColorUIResource getUserTextColor() {
+    return getSystemTextColor();
+  }
+
+
+  @Override
+  public ColorUIResource getSystemTextColor() {
+    return this.gruvbox.getFg();
+  }
+
+
+  @Override
+  public ColorUIResource getWindowTitleInactiveForeground() {
+    // used for:
+    //   - Text in titlebar of _inactive_ JInternalFrame
+    return getControlTextColor();
+  }
+
+
+  @Override
+  public ColorUIResource getWindowTitleForeground() {
+    // used for:
+    //   - Text in titlebar of _active_ JInternalFrame
+    return getControlTextColor();
+  }
+
+
+//  @Override
+//  public ColorUIResource getMenuDisabledForeground() {
+//    return new ColorUIResource(Color.CYAN);
+//  }
+//
+//
+//  @Override
+//  public ColorUIResource getMenuSelectedForeground() {
+//    return new ColorUIResource(Color.magenta);
+//  }
+
+
+  @Override
+  public ColorUIResource getMenuForeground() {
+    return this.gruvbox.getFg1();
+  }
+
+
+  @Override
+  protected ColorUIResource getBlack() {
+    return this.gruvbox.getFg();
+  }
+
+
+  @Override
+  protected ColorUIResource getWhite() {
+    return this.gruvbox.getBg();
+  }
+
 
 
 }

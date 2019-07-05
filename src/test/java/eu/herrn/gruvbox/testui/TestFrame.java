@@ -384,22 +384,27 @@ public class TestFrame extends javax.swing.JFrame {
     /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
      */
-    try {
-      System.setProperty(SystemProperties.THEME, GruvboxThemeVariant.LIGHT.name());
-      javax.swing.UIManager.setLookAndFeel(new GruvboxLookAndFeel());
-    } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-      java.util.logging.Logger.getLogger(TestFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-    }
-    //</editor-fold>
+    for (final GruvboxThemeVariant v : new GruvboxThemeVariant[]{GruvboxThemeVariant.LIGHT, GruvboxThemeVariant.DARK}) {
 
-    /* Create and display the form */
-    java.awt.EventQueue.invokeLater(new Runnable() {
-      public void run() {
-        final TestFrame f = new TestFrame();
-        f.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        f.setVisible(true);
-      }
-    });
+      //</editor-fold>
+
+      /* Create and display the form */
+      java.awt.EventQueue.invokeLater(new Runnable() {
+        public void run() {
+          try {
+            System.setProperty(SystemProperties.THEME, v.name());
+            javax.swing.UIManager.setLookAndFeel(new GruvboxLookAndFeel());
+          } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(TestFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+          }
+
+          final TestFrame f = new TestFrame();
+          f.setDefaultCloseOperation(EXIT_ON_CLOSE);
+          f.setLocationByPlatform(true);
+          f.setVisible(true);
+        }
+      });
+    }
   }
 
   // Variables declaration - do not modify//GEN-BEGIN:variables
