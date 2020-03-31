@@ -10,4 +10,12 @@ NB
 LAF
 ---
 
-- Besserer (weniger gelber) Hintergrund für Solarized variant
+- Better (less yellow) background for Solarized variant
+
+
+NB-colorscheme
+--------------
+
+- Can we remove the .nbattr files?
+- Provide saner color for filetypes other than Java and XML (make HTML
+  similar to XML)
