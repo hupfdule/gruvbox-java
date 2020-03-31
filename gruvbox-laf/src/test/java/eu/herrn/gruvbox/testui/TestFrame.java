@@ -401,6 +401,7 @@ public class TestFrame extends javax.swing.JFrame {
           }
 
           final TestFrame f = new TestFrame();
+          f.setTitle(v.toString());
           f.setDefaultCloseOperation(EXIT_ON_CLOSE);
           f.setLocationByPlatform(true);
           f.setVisible(true);
