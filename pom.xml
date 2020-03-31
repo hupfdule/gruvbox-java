@@ -7,7 +7,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Gruvbox LaF</name>
+    <name>Gruvbox for Java</name>
 
     <modules>
         <module>gruvbox-laf</module>
