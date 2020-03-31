@@ -19,3 +19,9 @@ NB-colorscheme
 - Can we remove the .nbattr files?
 - Provide saner color for filetypes other than Java and XML (make HTML
   similar to XML)
+- How to specify colors for the diff view? Those are not contained in the
+  exported configuration. I also don't find them anywhere below
+  ~/.netbeans/11.3. Can't they be specified?
+  - Color of Added Text:   79740E
+  - Color of Removed Text: CC241D
+  - Color of Changed Text: 458588
