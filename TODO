@@ -25,3 +25,13 @@ NB-colorscheme
   - Color of Added Text:   79740E
   - Color of Removed Text: CC241D
   - Color of Changed Text: 458588
+- The same applies to the Colors for Versioning Systems
+- Not working:
+  - Syntax / All Languages / Error
+  - Syntax / All languages / URL
+  - Highlighting / Hyperlinks
+  - Diff
+  - Versioning
+  - Annotations
+
+
