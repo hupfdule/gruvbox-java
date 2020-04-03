@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.2//EN" "http://netbeans.apache.org/dtds/EditorFontsColors-1_2.dtd">
 <fontscolors>
     <fontcolor bgColor="ff3b514d" foreColor="ffffef28" name="nbeditor-bracesMatching-match"/>
+    <fontcolor bgColor="ffffffe0" name="coverage-partial"/>
     <fontcolor foreColor="ff555555" name="text-limit-line-color"/>
     <fontcolor bgColor="ff3a3a3a" foreColor="ff8c8c8c" name="code-folding"/>
     <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
@@ -9,9 +10,12 @@
     <fontcolor bgColor="ff323232" name="highlight-caret-row"/>
     <fontcolor foreColor="ffbbbbbb" name="caret-color-overwrite-mode"/>
     <fontcolor name="status-bar"/>
+    <fontcolor bgColor="ffccffcc" name="coverage-covered"/>
     <fontcolor bgColor="ff323232" name="guarded"/>
     <fontcolor name="trailing-whitespace"/>
+    <fontcolor bgColor="ffe0ffe0" name="coverage-inferred"/>
     <fontcolor bgColor="ffd1243b" name="nbeditor-bracesMatching-mismatch-multichar"/>
+    <fontcolor bgColor="fff5f5f5" foreColor="ffb4b4b4" name="remove-surround-code-delete"/>
     <fontcolor foreColor="ff666666" name="code-folding-border"/>
     <fontcolor name="west-sidebars-color"/>
     <fontcolor foreColor="red" name="status-bar-bold"/>
@@ -25,7 +29,9 @@
     <fontcolor name="indent-whitespace"/>
     <fontcolor bgColor="ffe0e8f1" foreColor="black" name="block-search"/>
     <fontcolor bgColor="ff3c3c3c" name="selection"/>
+    <fontcolor bgColor="ffffcccc" name="coverage-uncovered"/>
     <fontcolor bgColor="ffffb442" foreColor="black" name="inc-search"/>
+    <fontcolor bgColor="ffccffcc" name="remove-surround-code-remain"/>
     <fontcolor bgColor="ff3b514d" name="nbeditor-bracesMatching-match-multichar"/>
     <fontcolor foreColor="ffbbbbbb" name="caret-color-insert-mode"/>
     <fontcolor foreColor="ff287bde" name="hyperlinks" underline="ff287bde"/>

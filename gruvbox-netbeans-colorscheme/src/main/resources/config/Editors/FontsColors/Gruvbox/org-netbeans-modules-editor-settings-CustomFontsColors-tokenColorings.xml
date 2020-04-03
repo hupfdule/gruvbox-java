@@ -8,7 +8,7 @@
     <fontcolor foreColor="ffb8bb26" name="string"/>
     <fontcolor default="keyword" foreColor="ffe8bf6a" name="markup-element"/>
     <fontcolor default="string" foreColor="ffa5c261" name="markup-attribute-value"/>
-    <fontcolor name="error" waveUnderlined="ff9e2927"/>
+    <fontcolor name="error" waveUnderlined="fffb4934"/>
     <fontcolor default="default" name="entity-reference"/>
     <fontcolor name="separator"/>
     <fontcolor foreColor="ffa9b7c6" name="operator"/>

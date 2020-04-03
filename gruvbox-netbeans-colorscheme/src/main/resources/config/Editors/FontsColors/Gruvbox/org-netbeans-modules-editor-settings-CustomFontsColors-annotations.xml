@@ -6,7 +6,7 @@
     <fontcolor bgColor="ffb4e4fc" name="stopwatchProfilingPoint"/>
     <fontcolor bgColor="ffbde6aa" name="OtherThread_PC"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_CBP_stroke"/>
-    <fontcolor bgColor="ffdcdcd8" name="CurrentPC2_DBP"/>
+    <fontcolor bgColor="ff928374" name="CurrentPC2_DBP"/>
     <fontcolor name="FieldBreakpoint"/>
     <fontcolor name="ClassBreakpoint_stroke"/>
     <fontcolor name="DisabledMethodBreakpoint"/>
@@ -28,7 +28,7 @@
     <fontcolor name="DisabledClassBreakpoint"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_multi_BPCBP"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_hint_fixable"/>
-    <fontcolor bgColor="ffdcdcd8" name="DisabledBreakpoint_stroke"/>
+    <fontcolor bgColor="ff928374" name="DisabledBreakpoint_stroke"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_CBP_broken"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_multi_BPCBP_broken"/>
     <fontcolor name="PHPNotice" waveUnderlined="ffc0c000"/>
@@ -51,7 +51,7 @@
     <fontcolor bgColor="ff506247" name="debugger-PC_DBP_stroke"/>
     <fontcolor bgColor="ffbde6aa" name="OtherThreads_PC_BP"/>
     <fontcolor bgColor="ffbde6aa" name="OtherThread_BP_broken"/>
-    <fontcolor bgColor="ffdcdcd8" name="Breakpoint_broken"/>
+    <fontcolor bgColor="ff928374" name="Breakpoint_broken"/>
     <fontcolor name="DisabledFieldBreakpoint"/>
     <fontcolor bgColor="ffdcdcd8" name="OtherThread_DBP"/>
     <fontcolor name="DisabledFieldBreakpoint_stroke"/>
@@ -59,7 +59,7 @@
     <fontcolor bgColor="ffb4e4fc" name="loadgenProfilingPoint"/>
     <fontcolor bgColor="ff506247" name="CurrentExpressionLine_CBP"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_CBP"/>
-    <fontcolor bgColor="ffdcdcd8" name="DisabledBreakpoint"/>
+    <fontcolor bgColor="ff928374" name="DisabledBreakpoint"/>
     <fontcolor bgColor="ffdcdcd8" name="loadgenProfilingPointD"/>
     <fontcolor foreColor="ffa8c023" name="org-netbeans-spi-editor-hints-parser_annotation_todo_fixable"/>
     <fontcolor name="OtherThreads"/>
@@ -79,7 +79,7 @@
     <fontcolor bgColor="fffc9d9f" name="debugger-multi_BPCBP"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_DCBP_stroke"/>
     <fontcolor bgColor="ffdcdcd8" name="resetResultsProfilingPointD"/>
-    <fontcolor bgColor="ffe9ffe6" name="CurrentExpressionLine_DCBP"/>
+    <fontcolor bgColor="ff928374" name="CurrentExpressionLine_DCBP"/>
     <fontcolor name="org-netbeans-modules-git-Annotation"/>
     <fontcolor bgColor="ff506247" name="CurrentExpressionLine_DBP"/>
     <fontcolor name="org-netbeans-modules-editor-annotations-overrides"/>
@@ -88,14 +88,14 @@
     <fontcolor bgColor="ff506247" name="debugger-PC_mixedBP"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_verifier_fixable"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_err"/>
-    <fontcolor bgColor="ffdcdcd8" name="CondBreakpoint_broken"/>
+    <fontcolor bgColor="ff928374" name="CondBreakpoint_broken"/>
     <fontcolor name="org-netbeans-modules-editor-annotations-implements-has-implementations-combined"/>
     <fontcolor bgColor="ff506247" name="CurrentExpression"/>
     <fontcolor bgColor="fffc9d9f" name="CurrentPC2_BP"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_BP_stroke"/>
     <fontcolor name="PHPWarning" waveUnderlined="ffc0c000"/>
     <fontcolor bgColor="ffdcdcd8" name="debugger-multi_BPCBP_broken"/>
-    <fontcolor bgColor="ffdcdcd8" name="DisabledCondBreakpoint_stroke"/>
+    <fontcolor bgColor="ff928374" name="DisabledCondBreakpoint_stroke"/>
     <fontcolor bgColor="ff506247" name="debugger-PC_BP"/>
     <fontcolor bgColor="ffdcdcd8" name="Breakpoint_stroke"/>
     <fontcolor name="ClassBreakpoint"/>
